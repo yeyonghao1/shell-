@@ -14,7 +14,7 @@ function memory_usage()
     return $memory;
 }
 $memoryuse = memory_usage();
-var_dump()
+var_dump($memoryuse);
 
 // 创建连接
 
